@@ -7,6 +7,9 @@ module.exports = {
     fontFamily: {
       astronological: ['"Avenir Next"'],
     },
+    container: {
+      center: true,
+    },
     extend: {},
   },
   variants: {},
