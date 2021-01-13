@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+
+h2 {
+  @apply text-6xl;
+}
+
+@tailwind utilities;

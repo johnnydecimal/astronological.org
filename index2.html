@@ -15,18 +15,20 @@
     <link rel="stylesheet" href="tailwind.css" />
   </head>
 
-  <body>
+  <body class="m-4">
+    <!-- The whole-thing-wrapper -->
     <div
-      class="grid mx-auto mt-12 bg-yellow-100 justify-items-center max-w-prose font-astronological"
+      class="grid justify-center mt-12 bg-yellow-50 justify-items-center font-astronological"
+      style="grid-template-columns: minmax(0, 65ch)"
     >
       <!-- Hero image -->
       <img
-        src="images/placeholders/Telescope_Shutterstock_Lemonade Serenade.jpg"
-        width="180px"
+        src="images/Astro_Gal_Profile_Pic_1.png"
+        width="200px"
         class="self-center"
       />
 
-      <!-- IAS header -->
+      <!-- IAS header, center all with a grid -->
       <div class="grid text-4xl justify-items-center sm:text-6xl">
         <p>THE</p>
         <p>INTERNATIONAL</p>
@@ -34,14 +36,24 @@
         <p>SOCIETY</p>
       </div>
 
+      <p class="font-medium text-center">
+        We are the world’s independent scientific society dedicated to the
+        promotion of logical thinking around celestial phenomena.
+      </p>
+
+      <hr class="w-11/12 my-4 border-2 border-yellow-800 rounded-lg" />
+
+      <h2>About us – what is astronology?</h2>
+
       <!-- Gumroad button -->
       <script src="https://gumroad.com/js/gumroad.js"></script>
       <a
         class="gumroad-button"
         href="https://gum.co/pIRKS?wanted=true"
         target="_blank"
-        >Rescind my star sign</a
       >
+        Rescind my star sign
+      </a>
     </div>
   </body>
 </html>
