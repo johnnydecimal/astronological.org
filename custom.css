@@ -1,8 +1,8 @@
 @tailwind base;
 @tailwind components;
 
-h2 {
-  @apply text-6xl;
-}
+/* h2 {
+  @apply text-6xl text-center;
+} */
 
 @tailwind utilities;
