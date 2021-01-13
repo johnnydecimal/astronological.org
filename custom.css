@@ -1,8 +1,12 @@
 @tailwind base;
 @tailwind components;
 
-/* h2 {
-  @apply text-6xl text-center;
-} */
+h2 {
+  @apply text-2xl text-center sm:text-4xl;
+}
+
+ul {
+  @apply pl-4 list-disc list-outside;
+}
 
 @tailwind utilities;
