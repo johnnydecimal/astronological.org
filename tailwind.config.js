@@ -1,7 +1,7 @@
 // tailwind.config.js
 // https://tailwindcss.com/docs/installation#3-create-your-tailwind-config-file-optional
 module.exports = {
-  purge: [],
+  purge: ["./*.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {

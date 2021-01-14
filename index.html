@@ -1,26 +1,257 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>The International Astronological Society</title>
-    <meta
-      name="description"
-      content="The International Astronological Society"
-    />
-    <meta name="author" content="John Noble <2020@johnny.net.au>" />
+		<title>The International Astronological Society</title>
+		<meta
+			name="description"
+			content="The International Astronological Society"
+		/>
+		<meta
+			name="author"
+			content="The International Astronological Society <hello@astronological.org>"
+		/>
 
-    <link rel="stylesheet" href="tailwind.css" />
-  </head>
+		<!-- https://css-tricks.com/essential-meta-tags-social-media/ -->
+		<!--  Essential META Tags -->
+		<meta
+			property="og:title"
+			content="The International Astronological Society"
+		/>
+		<meta
+			property="og:description"
+			content="The world’s independent scientific society dedicated to the promotion of logical thinking around celestial phenomena."
+		/>
+		<meta
+			property="og:image"
+			content="http://astronological.org/images/Astro_Gal_Profile_Pic_1-min.png"
+		/>
+		<meta
+			property="og:image:secure_url"
+			content="https://astronological.org/images/Astro_Gal_Profile_Pic_1-min.png"
+		/>
+		<meta property="og:image:type" content="image/png" />
+		<meta property="og:image:width" content="400" />
+		<meta property="og:image:height" content="400" />
+		<meta property="og:url" content="https://astronological.org" />
+		<meta
+			name="twitter:card"
+			content="The world’s independent scientific society dedicated to the promotion of logical thinking around celestial phenomena."
+		/>
+		<!--  Non-Essential, But Recommended -->
+		<meta
+			property="og:site_name"
+			content="The International Astronological Society"
+		/>
+		<meta
+			name="twitter:image:alt"
+			content="A hand-drawn image of a stick figure girl looking through a telescope."
+		/>
+		<!--  Non-Essential, But Required for Analytics -->
+		<meta name="twitter:site" content="@astronological" />
 
-  <body class="flex flex-col items-center m-8 font-astronological">
-    <h1 class="text-gray-800 text-8xl">THE</h1>
-    <h1 class="text-gray-800 text-8xl">INTERNATIONAL</h1>
-    <h1 class="text-gray-800 text-8xl">
-      ASTRONO<span class="font-bold">LOGICAL</span>
-    </h1>
-    <h1 class="text-gray-800 text-8xl">SOCIETY</h1>
-    <p class="font-astronological">Some text here.</p>
-  </body>
+		<link rel="stylesheet" href="tailwind.css" />
+
+		<!-- 32×32 -->
+		<link rel="icon" href="favicon.ico" />
+		<!-- 180×180 -->
+		<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+		<link rel="manifest" href="site.webmanifest" />
+
+		<script
+			src="https://kit.fontawesome.com/18a15306d9.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+
+	<body class="mx-4 leading-relaxed">
+		<!-- Wrap everything in a grid, one column 65ch wide -->
+		<div
+			class="grid justify-center gap-4 font-astronological"
+			style="grid-template-columns: minmax(0, 65ch)"
+		>
+			<!-- == HERO IMAGE == == == == == == == == == == == == == == == == == -->
+
+			<img
+				src="images/Astro_Gal_Profile_Pic_1-min.png"
+				class="w-1/3 justify-self-center sm:w-1/2"
+			/>
+
+			<!-- == HERO TITLE == == == == == == == == == == == == == == == == == -->
+			<h1 class="grid text-4xl font-light justify-items-center sm:text-6xl">
+				<span>THE</span>
+				<span>INTERNATIONAL</span>
+				<span>ASTRONO<span class="font-normal">LOGICAL</span></span>
+				<span>SOCIETY</span>
+			</h1>
+
+			<p class="mt-4 text-lg font-medium text-center">
+				We are the world’s independent scientific society dedicated to the
+				promotion of logical thinking around celestial phenomena.
+			</p>
+
+			<hr
+				class="w-11/12 my-4 border-2 border-gray-200 rounded-lg justify-self-center"
+			/>
+
+			<!-- == ABOUT US == == == == == == == == == == == == == == == == == ==-->
+			<h2 class="text-2xl text-center sm:text-4xl">
+				About us &ndash; what is astronology?
+			</h2>
+
+			<p>
+				Astronology is a system of logic that assumes celestial objects have no
+				influence on human affairs or terrestrial events.
+			</p>
+
+			<p>
+				We reject the tradition of assigning a star/zodiac sign to all humans at
+				birth without their permission. We don’t think that it’s ‘just a bit of
+				fun’. We deplore that astrology, a practice built on lies and quackery,
+				is supported by mainstream media outlets.
+			</p>
+
+			<p class="justify-self-start">Our goals include:</p>
+
+			<ul class="pl-4 list-disc list-outside">
+				<li>Standing up for logical thinking and evidence-based science.</li>
+				<li>
+					Providing a forum for humans to publicly reject the pseudoscience of
+					astrology.
+				</li>
+				<li>
+					Encouraging more humans to explore astrology’s lack of logic and
+					evidence.
+				</li>
+			</ul>
+
+			<!-- == Dictionary-style definition -->
+			<div
+				class="p-2 mx-2 mt-4 border-2 border-gray-900 rounded-sm sm:w-2/3 sm:mx-0"
+			>
+				<p class="mb-1 text-2xl font-semibold">astronological</p>
+				<p class="text-sm italic">adjective; /ˌæs.trəˈ.no.lɒdʒ.ɪ.kəl/</p>
+				<p class="">Of, or relating to, astronology. Enormously logical.</p>
+			</div>
+
+			<hr
+				class="w-11/12 my-4 border-2 border-gray-200 rounded-lg justify-self-center"
+			/>
+
+			<!-- == MEMBERSHIP == == == == == == == == == == == == == == == == == -->
+			<h2 class="text-2xl text-center sm:text-4xl">
+				Membership &ndash; become a<br />star-sign-free human!
+			</h2>
+
+			<p>
+				Become a member and publicly reject the pseudoscience of Big Astrology.
+			</p>
+
+			<!-- == Gumroad button -->
+			<script src="https://gumroad.com/js/gumroad.js"></script>
+			<a
+				class="gumroad-button justify-self-center"
+				href="https://gum.co/pIRKS?wanted=true"
+				style="color: rgb(2, 81, 88) !important"
+				target="_blank"
+			>
+				Become a member for $10
+			</a>
+
+			<!-- == Members receive -->
+			<p>Members receive the following downloads and benefits:</p>
+			<ul class="pl-4 list-disc list-outside">
+				<li>An official membership card<sup>*</sup>.</li>
+				<li>An official membership certificate<sup>*</sup>.</li>
+				<li>Some screen backgrounds and posters.</li>
+				<li>
+					A warm fuzzy feeling that you’re contributing to
+					<a
+						class="underline"
+						href="/smallprint.html#grants"
+						style="color: rgb(2, 81, 88)"
+						>a grant</a
+					>
+					to support astrophysics/&#8203;astronomy students.
+				</li>
+				<li>
+					An even warmer fuzzy feeling that your star sign has been officially
+					rescinded by the Society.
+				</li>
+			</ul>
+
+			<p class="font-medium">
+				So next time someone says “Hey baby, what’s your sign?”, you can reply
+				confidently “I don’t have one!”.
+			</p>
+
+			<!-- == Footnote-style box -->
+			<div
+				class="grid grid-flow-col px-2 py-1 border border-gray-700 rounded-md bg-gray-50 justify-self-center sm:w-3/4"
+				style="grid-template-columns: auto, 1fr"
+			>
+				<div class="mr-1">*</div>
+				<div>
+					<p>
+						Membership cards/certificates can be useful for shutting down
+						star-sign-based conversations before they begin. For example:
+					</p>
+					<ul class="pl-4 mt-1 list-disc list-outside">
+						<li>
+							Stick one to your monitor so Janice from accounts stops reading
+							your horoscope out in the lunch room.
+						</li>
+						<li>
+							Upload one to your dating app images to instantly filter out
+							astrology believers.
+						</li>
+						<li>
+							Post one to your uncle Neil (you know, the ‘spiritual’ one who
+							weaves his own underwear from nettles), so he’ll know not to try
+							and convert you to his ways on your next visit.
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- == FOOTER == == == == == == == == == == == == == == == == == == == -->
+			<footer
+				class="w-11/12 py-1 mt-4 mb-12 text-xs text-center text-gray-500 border-t border-gray-200 sm:mb-4 justify-self-center"
+			>
+				<p>&copy; 2021 The International Astronological Society</p>
+				<p class="mt-1 text-base">
+					<!-- Twitter -->
+					<span
+						><a
+							href="https://twitter.com/astronological"
+							style="color: rgb(2, 81, 88)"
+							><i class="align-middle fab fa-twitter-square"></i></a
+					></span>
+					<span>&nbsp;</span>
+					<!-- Instagram -->
+					<span
+						><a
+							href="https://instagram.com/astronological"
+							style="color: rgb(2, 81, 88)"
+							><i
+								alt="Instagram icon"
+								class="align-middle fab fa-instagram-square"
+							></i></a
+					></span>
+					<span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
+					<span
+						><a
+							href="smallprint.html"
+							class="text-xs"
+							style="color: rgb(2, 81, 88)"
+							>small print</a
+						></span
+					>
+				</p>
+			</footer>
+		</div>
+	</body>
 </html>
