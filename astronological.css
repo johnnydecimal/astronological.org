@@ -1,0 +1,12 @@
+/* To update:
+NODE_ENV=production npx tailwindcss-cli@latest build ./astronological.css -o ./tailwind.css
+*/
+
+@tailwind base;
+@tailwind components;
+
+a {
+	color: rgb(2, 81, 88);
+}
+
+@tailwind utilities;
