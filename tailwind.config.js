@@ -1,5 +1,6 @@
 // tailwind.config.js
 // https://tailwindcss.com/docs/installation#3-create-your-tailwind-config-file-optional
+
 module.exports = {
 	purge: ["./**/*.html"],
 	darkMode: false, // or 'media' or 'class'
@@ -10,7 +11,11 @@ module.exports = {
 		container: {
 			center: true,
 		},
-		extend: {},
+		extend: {
+			colors: {
+				"link-button-orange": "#ff8100",
+			},
+		},
 	},
 	variants: {},
 	plugins: [],
